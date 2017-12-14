@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.java8stream.MainActivity">
+
+        <Button
+            android:id="@+id/btn_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_filter" />
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_map" />
+
+        <Button
+            android:id="@+id/btn_reduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_reduce" />
+
+        <Button
+            android:id="@+id/btn_collect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_collect" />
+
+        <Button
+            android:id="@+id/btn_peek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_peek" />
+
+        <Button
+            android:id="@+id/btn_average"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_average" />
+
+        <Button
+            android:id="@+id/btn_sum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_sum" />
+
+        <Button
+            android:id="@+id/btn_max"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_max" />
+
+        <Button
+            android:id="@+id/btn_min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_min" />
+
+        <Button
+            android:id="@+id/btn_arrStream"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_arrStream" />
+
+        <Button
+            android:id="@+id/btn_then"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_then" />
+
+        <Button
+            android:id="@+id/btn_foreach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_foreach" />
+
+        <Button
+            android:id="@+id/btn_visitOuterVar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_visitOuterVar" />
+
+        <Button
+            android:id="@+id/btn_sorted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_sorted" />
+
+        <Button
+            android:id="@+id/btn_groupBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_groupBy" />
+
+        <Button
+            android:id="@+id/btn_join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_join" />
+
+        <Button
+            android:id="@+id/btn_flatMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stream_flatMap" />
+    </LinearLayout>
+</ScrollView>
